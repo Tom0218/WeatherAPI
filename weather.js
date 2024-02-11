@@ -34,7 +34,7 @@ city.addEventListener('change',()=>{
                 cloud.innerText = weather;
 
                 if(weather == '晴時多雲'){
-                    img.src = '/public/cloud.png';
+                    img.src = '/public/cloud2.png';
                 } else if (weather == '陰天') {
                     img.src = '/public/clouds.png';
                 } else if (weather == '起霧'){
@@ -44,7 +44,7 @@ city.addEventListener('change',()=>{
                 } else if (weather == '下雪'){
                     img.src = '/public/snow.png';
                 } else {
-                    img.src = '/public/clear.png';
+                    img.src = '/public/cloud2.png';
                 }
                 
                 //最低溫
