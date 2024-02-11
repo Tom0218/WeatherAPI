@@ -1,0 +1,64 @@
+body{
+    height: 90vh;
+    width: 100vws;
+    background-image: url('../../public/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainArea{
+    height: 60%;
+    width: 40%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+
+.mainArea .header{
+    text-align: center;
+}
+
+.mainArea .selectArea{
+    display: flex;
+    justify-content: center;
+}
+
+.mainArea select{
+    font-size: 12pt;
+}
+
+.content{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content table {
+    background-color: whitesmoke;
+}
+
+.content img{
+    margin-left: 5%;
+    height: 100px;
+}
+
+.content th{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.content td{
+    font-size: 16pt;
+}
+
+.content td label{
+    display: none;
+}
+
+.content img {
+    display: none;
+}
