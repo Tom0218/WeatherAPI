@@ -43,7 +43,7 @@ body{
 
 .content img{
     margin-left: 5%;
-    height: 100px;
+    width: 300px;
 }
 
 .content th{
@@ -55,9 +55,9 @@ body{
     font-size: 16pt;
 }
 
-.content td label{
+/* .content td label{
     display: none;
-}
+} */
 
 .content img {
     display: none;
